@@ -3,5 +3,5 @@ project(Algorithm)
 
 set(CMAKE_C_STANDARD 99)
 
-set(SOURCE_FILES main.c BucketSort.c BucketSort.h BubbleSort.c BubbleSort.h StudentScore.c StudentScore.h QuickSort.c QuickSort.h QuickSort.h)
+set(SOURCE_FILES main.c Sort/BucketSort.c Sort/BucketSort.h Sort/BubbleSort.c Sort/BubbleSort.h Sort/StudentScore.c Sort/StudentScore.h Sort/QuickSort.c Sort/QuickSort.h )
 add_executable(Algorithm ${SOURCE_FILES})

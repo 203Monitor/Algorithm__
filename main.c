@@ -1,8 +1,9 @@
 #include <stdio.h>
-#include "BucketSort.h"
-#include "BubbleSort.h"
-#include "StudentScore.h"
-#include "QuickSort.h"
+
+#include "Sort/BucketSort.h"
+#include "Sort/BubbleSort.h"
+#include "Sort/StudentScore.h"
+#include "Sort/QuickSort.h"
 
 int main() {
 
