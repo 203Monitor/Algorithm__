@@ -9,7 +9,11 @@ struct student {
     char score;
 };
 
-void studentScore() {
+void studentScore(int enable) {
+
+    if (enable == 0)
+        return;
+
     struct student a[100],t;
     int i,j,n;
 

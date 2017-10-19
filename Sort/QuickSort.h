@@ -4,4 +4,4 @@
 
 #include <stdio.h>
 
-void quickSort1();
+void quickSortRun(int enable);

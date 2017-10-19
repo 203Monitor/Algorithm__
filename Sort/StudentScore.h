@@ -4,4 +4,4 @@
 
 #include <stdio.h>
 
-void studentScore();
+void studentScore(int enable);

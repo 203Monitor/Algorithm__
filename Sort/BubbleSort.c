@@ -4,7 +4,11 @@
 
 #include "BubbleSort.h"
 
-void bubbleSort() {
+void bubbleSort(int enable) {
+
+    if (enable == 0)
+        return;
+
     int a[100],i,j,t,n;
     scanf("%d",&n);
     for (i = 1; i <= n; i++) {

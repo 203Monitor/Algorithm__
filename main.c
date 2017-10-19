@@ -7,7 +7,10 @@
 
 int main() {
 
-    quickSort1();
+    bucketSort(1);
+    bubbleSort(0);
+    studentScore(0);
+    quickSortRun(0);
 
     return 0;
 }

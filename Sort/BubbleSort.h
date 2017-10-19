@@ -4,4 +4,4 @@
 
 #include <stdio.h>
 
-void bubbleSort();
+void bubbleSort(int enable);

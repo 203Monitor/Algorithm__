@@ -38,7 +38,11 @@ void quickSort(int left, int right) {
     }
 }
 
-void quickSort1() {
+void quickSortRun(int enable) {
+
+    if (enable == 0)
+        return;
+
     int i,j,t;
     scanf("%d",&n);
 

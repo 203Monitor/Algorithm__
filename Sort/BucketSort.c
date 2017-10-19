@@ -4,9 +4,12 @@
 
 #include "BucketSort.h"
 
-void bucketSort() {
+void bucketSort(int enable) {
 
-    printf("桶排序\n");
+    if (enable == 0)
+        return;
+
+    printf("BucketSort\n");
     int a[11],i,j,t;
 
     for(i = 0; i <= 10; i++) {
@@ -14,12 +17,12 @@ void bucketSort() {
     }
 
     for (int i = 1; i <= 5; i++) {
-        printf("输入第%d个数:",i);
+        printf("input %d :",i);
         scanf("%d",&t);
         a[t]++;
     }
 
-    printf("排序结果:");
+    printf("Sort result:");
     for (int i = 0; i <= 10; i++) {
         for (int j = 1; j <= a[i]; j++) {
             printf("%d ", i);
@@ -31,25 +34,28 @@ void bucketSort() {
 
 }
 
-void bucketSort2() {
+void bucketSort2(int enable) {
 
-    printf("桶排序\n");
+    if (enable == 0)
+        return;
+
+    printf("BucketSort\n");
     int book[1001],i,j,t,n;
 
     for(i = 0; i <= 1000; i++) {
         book[i] = 0;
     }
 
-    printf("需要排序几个数:");
+    printf("how many numbers to sort:");
     scanf("%d",&n);
 
     for (int i = 1; i <= n; i++) {
-        printf("输入第%d个数:",i);
+        printf("input %d:",i);
         scanf("%d",&t);
         book[t]++;
     }
 
-    printf("排序结果:");
+    printf("Sort result:");
     for (int i = 1000; i >= 0; i--) {
         for (int j = 1; j <= book[i]; j++) {
             printf("%d ", i);

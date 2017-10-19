@@ -4,6 +4,6 @@
 
 #include <stdio.h>
 
-void bucketSort();
+void bucketSort(int enable);
 
-void bucketSort2();
+void bucketSort2(int enable);
