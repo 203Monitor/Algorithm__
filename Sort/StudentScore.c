@@ -14,12 +14,16 @@ void studentScore(int enable) {
     if (enable == 0)
         return;
 
+    printf("StudentScore\n");
+
     struct student a[100],t;
     int i,j,n;
 
+    printf("how many numbers to sort:\n");
     scanf("%d",&n);
 
     for (i = 1; i <= n; i++) {
+        printf("input %d:",i);
         scanf("%s %d",a[i].name,&a[i].score);
     }
 
@@ -33,6 +37,7 @@ void studentScore(int enable) {
         }
     }
 
+    printf("Sort result:\n");
     for (i = 1; i <= n; i++) {
         printf("%s\n",a[i].name);
     }
