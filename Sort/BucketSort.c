@@ -10,6 +10,7 @@ void bucketSort(int enable) {
         return;
 
     printf("BucketSort\n");
+
     int a[11],i,j,t;
 
     for(i = 0; i <= 10; i++) {

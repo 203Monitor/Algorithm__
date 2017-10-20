@@ -43,15 +43,21 @@ void quickSortRun(int enable) {
     if (enable == 0)
         return;
 
+    printf("QuickSort\n");
+
     int i,j,t;
+
+    printf("how many numbers to sort:");
     scanf("%d",&n);
 
     for (i = 1; i <= n; i++) {
+        printf("input %d:",i);
         scanf("%d",&a[i]);
     }
 
     quickSort(1, n);
 
+    printf("Sort result:");
     for (i = 1; i <= n; i++) {
         printf("%d ",a[i]);
     }

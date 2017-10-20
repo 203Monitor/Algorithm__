@@ -9,9 +9,15 @@ void bubbleSort(int enable) {
     if (enable == 0)
         return;
 
+    printf("BubbleSort\n");
+
     int a[100],i,j,t,n;
+
+    printf("how many numbers to sort:");
     scanf("%d",&n);
+
     for (i = 1; i <= n; i++) {
+        printf("input %d:",i);
         scanf("%d",&a[i]);
     }
 
@@ -25,6 +31,7 @@ void bubbleSort(int enable) {
         }
     }
 
+    printf("Sort result:");
     for (i = 1; i <= n; i++) {
         printf("%d ",a[i]);
     }
