@@ -11,6 +11,6 @@ int main() {
     bubbleSort(0);//冒泡排序
     studentScore(1);//学生成绩结构体排序
     quickSortRun(0);//快速排序
-
+    
     return 0;
 }
